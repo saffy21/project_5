@@ -37,7 +37,7 @@ Server B name - `mysql client`
 
 `sudo mysql`
 
-![login to mysql](./image_5/login_to_mysql.png)
+![login to mysql](./image_5/sudo_mysql.png)
 
 `mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';`
 
@@ -48,10 +48,6 @@ Server B name - `mysql client`
 ![mysql secure installation](./image_5/mysql_secure_installation.png)
 
 ![mysql secure installation](./image_5/mysql_secure_installation_continued.png)
-
-`sudo mysql -p`
-
-`mysql> exit`
 
 ` mysql -u root -p`
 
@@ -85,12 +81,11 @@ Server B name - `mysql client`
 
 ### installing mysql client on server B
 
-
 `sudo apt-get install mysql-client`
 
 ![mysql-client installation](./image_5/installing_mysql_client.png)
 
-` mysql -u juiceworld -h 172.31.14.136 -p`
+` mysql -u slushpuppy -h 172.31.1.10 -p`
 
 ![connecting to mysql server from mysql client](./image_5/connecting_mysql_server.png)
 
